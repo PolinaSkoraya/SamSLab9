@@ -1,0 +1,33 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "js tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/single -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/PolinaSkoraya/SamSLab9.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Skoraya Polina",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "http-server": "^0.11.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
